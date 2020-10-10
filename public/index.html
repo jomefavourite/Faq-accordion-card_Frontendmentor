@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="background font-kumbh text-sm">
+    <main
+      class="my-56 lg:my-0 lg:h-screen lg:flex lg:flex-col lg:justify-center lg:items-center"
+    >
+      <div
+        class="bg-white mx-auto rounded-wide pt-40 pb-8 px-5 w-11/12 max-w-md relative shadow-boxsh lg:max-w-5xl lg:py-16 lg:bg2 lg:pr-16 lg:bg-img1 lg:bg-no-repeat lg:bg-bg1 lg:bg-bg2"
+      >
+        <img
+          class="absolute top-0 left-0 right-0 mx-auto pr-10 -mt--m2 pointer-events-none lg:hidden"
+          src="./images/illustration-woman-online-mobile.svg"
+          alt="logo"
+        />
+        <img
+          class="absolute top-0 left-0 right-0 m-auto pointer-events-none lg:hidden"
+          src="./images/bg-pattern-mobile.svg"
+          alt=""
+        />
+        <img
+          class="hidden absolute pointer-events-none lg:block lg:left-0 lg:-ml-20 lg:mt-one z-20"
+          src="./images/illustration-box-desktop.svg"
+          alt="logo"
+        />
+        <img
+          class="hidden absolute pointer-events-none lg:block -ml-12"
+          src="./images/illustration-woman-online-desktop.svg"
+          alt="logo"
+        />
+
+        <div class="lg:max-w-sm lg:ml-auto">
+          <h1 class="text-4xl font-bold text-center mb-6 lg:text-left">FAQ</h1>
+
+          <details class="py-4 border-b">
+            <summary class="flex justify-between items-center">
+              <span>How many team members can I invite?</span>
+              <span class="arrow">
+                <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down" />
+              </span>
+            </summary>
+
+            <p>
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </p>
+          </details>
+
+          <details class="py-4 border-b">
+            <summary class="flex justify-between items-center">
+              <span>What is the maximum file upload size?</span>
+              <span class="arrow">
+                <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down" />
+              </span>
+            </summary>
+            <p>
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </p>
+          </details>
+
+          <details class="py-4 border-b">
+            <summary class="flex justify-between items-center">
+              <span>How do I reset my password?</span>
+              <span class="arrow">
+                <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down" />
+              </span>
+            </summary>
+            <p>
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </p>
+          </details>
+
+          <details class="py-4 border-b">
+            <summary class="flex justify-between items-center">
+              <span>Can I cancel my subscription?</span>
+              <span class="arrow">
+                <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down" />
+              </span>
+            </summary>
+            <p>
+              Yes! Send us a message and we’ll process your request no questions
+              asked.
+            </p>
+          </details>
+
+          <details class="py-4 border-b border-divider">
+            <summary class="flex justify-between items-center">
+              <span>Do you provide additional support?</span>
+              <span class="arrow">
+                <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down" />
+              </span>
+            </summary>
+            <p>
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.nd email support is available 24/7.
+              Phone lines are open during normal business hours.
+            </p>
+          </details>
+        </div>
+      </div>
+      <div class="attribution mt-10">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Jome Favourite</a>.
+      </div>
+    </main>
+  </body>
+</html>
